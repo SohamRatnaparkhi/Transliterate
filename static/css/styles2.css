@@ -1,0 +1,14 @@
+.text {
+    height: 1000px;
+    /* width: 100%; */
+    overflow:scroll;
+    border: 1px solid #576F72;
+    margin: 3vw;
+    background-color: #243A73;
+}
+.user-text{
+    color: #F2EBE9;
+    font-size: 1.7vw;
+    padding: 0.5vw;
+}
+
