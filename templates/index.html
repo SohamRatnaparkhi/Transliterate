@@ -228,10 +228,10 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/">Guide</a>
+                            <a class="nav-link active" aria-current="page" href="https://github.com/SohamRatnaparkhi/IEEEMUC-Transliterate/blob/main/guide.md">Guide</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/">Features</a>
+                            <a class="nav-link active" aria-current="page" href="https://github.com/SohamRatnaparkhi/IEEEMUC-Transliterate/blob/main/features.md">Features</a>
                         </li>
                         
                     </ul>
@@ -252,7 +252,7 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="static\images\carousel\cr1.jpg" class="d-block w-100" alt="..." height="700">
+                    <img src="static\images\carousel\cr5.jpg" class="d-block w-100" alt="..." height="700">
                     <div class="carousel-caption d-none d-md-block">
                         <h1 class="C-HEADING carousel-heading">WELCOME TO</h1>
                         <h1 class="C-HEADING carousel-heading"><B>TRANSLITERATE</B></h1>
@@ -262,7 +262,7 @@
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="15000">
-                    <img src="static\images\carousel\cr5.jpg" class="d-block w-100" alt="..." height="700">
+                    <img src="static\images\carousel\cr1.jpg" class="d-block w-100" alt="..." height="700">
                     <div class="carousel-caption d-none d-md-block">
                         <h1 class="C-HEADING carousel-heading"> WELCOME TO</h1>
                         <h1 class="C-HEADING carousel-heading"><B>TRANSLITERATE</B></h1>
@@ -275,8 +275,8 @@
                 <div class="carousel-item">
                     <img src="static\images\carousel\cr8.png" class="d-block w-100" alt="..." height="700">
                     <div class="carousel-caption d-none d-md-block">
-                        <h1 class="c-3 carousel-heading">WELCOME TO</h1>
-                        <h1 class="c-3 carousel-heading"><B>TRANSLITERATE</B></h1>
+                        <h1 class="C-HEADING carousel-heading">WELCOME TO</h1>
+                        <h1 class="C-HEADING carousel-heading"><B>TRANSLITERATE</B></h1>
                         <button type="button" class="btn btn-warning">Accurate</button>
                         <br><br>
                         <button type="button" class="btn btn-danger">Free</button>
@@ -314,7 +314,7 @@
 
                         <div class="card-body">
                             <p class="card-content"><a
-                                    href="https://www.mayoclinic.org/diseases-conditions/brain-tumor/symptoms-causes/syc-20350084#:~:text=A%20brain%20tumor%20is%20a,tumors%20are%20cancerous%20(malignant)."
+                                    href="https://github.com/SohamRatnaparkhi/IEEEMUC-Transliterate/blob/main/guide.md"
                                     class="btn btn-outline-success" target="_blank">How does our tool work?</a></p>
                         </div>
                     </div>
@@ -326,7 +326,7 @@
 
                         <div class="card-body">
                             <p class="card-content"><a
-                                    href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/brain-tumor#:~:text=All%20brain%20cancers%20are%20tumors,distinct%20borders%20and%20rarely%20spread."
+                                    href="https://github.com/SohamRatnaparkhi/IEEEMUC-Transliterate/blob/main/features.md"
                                     class="btn btn-outline-danger" target="_blank">Major Features</a></p>
                         </div>
                     </div>
@@ -338,7 +338,7 @@
 
                         <div class="card-body">
                             <p class="card-content"><a
-                                    href="https://www.mayoclinic.org/diseases-conditions/brain-tumor/diagnosis-treatment/drc-20350088"
+                                    href="https://github.com/SohamRatnaparkhi/IEEEMUC-Transliterate/blob/main/motive.md"
                                     class="btn btn-outline-success" target="_blank">Motivation</a></p>
                         </div>
                     </div>
@@ -352,6 +352,7 @@
             <ul>
                 <li class="req">Pre-recorded audio file in <b>'.wav'</b> format only.</li>
                 <li class="req">This website provides audio recording facility also.</li>
+                <li class="req">For text translation copy/write the required text in the text box.</li>
             </ul>
             <h4>🔍 HOW DOES THIS TOOL WORK ?</h4>
             <ul>
@@ -370,13 +371,16 @@
             </div>
         </div>
         <div id="model1">
+            <br>
+            <a class="btn btn-outline-info btn-lg btn-block forms-model" type="button" href="https://github.com/SohamRatnaparkhi/IEEEMUC-Transliterate/blob/main/LanguageSupport.md">🎇 SUPPORTED LANGUAGES 🎇</a>
             <br><br>
-
+            <a class="btn btn-outline-success btn-lg btn-block forms-model" type="button" href="https://github.com/SohamRatnaparkhi/IEEEMUC-Transliterate/blob/main/guide.md">🎇 GUIDE 🎇</a>
+            <br><br>
             <div class="row row-cols-1 row-cols-md-1 mb-1  text-left forms-model">
                 <div class="col">
                     <div class="card mb-4 rounded-3 shadow-sm">
                         <div class="card-header py-3">
-                            <h4 class="my-0 fw-normal text-center">Use Voice</h4>
+                            <h4 class="my-0 fw-normal text-center">Audio translation</h4>
                         </div>
                         <div class="card-body">
                             <div class="holder">
@@ -385,7 +389,8 @@
                                 </div>
                                 <div data-role="recordings"></div>
                             </div>
-                            <p> Click the middle button to start recording your voice or upload the pre-existing file.
+                            <p> 
+                                Click the middle button to start recording your voice or upload the pre-existing file.
                             </p>
                             <form method="POST" action="{{url_for('translate_speech')}}" enctype="multipart/form-data">
                                 <label>AudioFile:</label>
@@ -403,17 +408,17 @@
                 <div class="col">
                     <div class="card mb-4 rounded-3 shadow-sm">
                         <div class="card-header py-3">
-                            <h4 class="my-0 fw-normal text-center">Use text</h4>
+                            <h4 class="my-0 fw-normal text-center">Text translation</h4>
                         </div>
                         <div class="card-body">
 
                             <form method="POST" autocomplete="false" action="{{url_for('translate_text')}}"
                                 enctype="multipart/form-data">
-                                <label>Enter your text or upload the pre-existing text file:</label> <br>
+                                <label>Enter your text :</label> <br>
                                 <textarea autocomplete="false" type="text" name="user_text" class="form-name"
                                     required></textarea><br>
-                                <label>Text File:</label>
-                                <input type="file" name='file' class='btn'><br><br>
+                                <!-- <label>Text File:</label>
+                                <input type="file" name='file' class='btn'><br><br> -->
                                 <label>Enter the language in which you want to translate (all lowercase):</label>
                                 <input type="text" name="target_language" class="form-name" required><br>
                                 <input type="submit" class="btn btn-warning text-center">
