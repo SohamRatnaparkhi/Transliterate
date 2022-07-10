@@ -1,3 +1,6 @@
+- Search the exact name and availibility of language you need.
+- Copy the name of `language` exactly. Do not enter the language code.
+
 `Sr.No` `Language` - `Code` <br>
 1. afrikaans - af <br>
 2. albanian - sq <br>
