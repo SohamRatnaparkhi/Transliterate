@@ -14,6 +14,9 @@ then run following commands.
 To do so:-
 ```
   pip install virtualenv
+```
+```
+
   virtualenv transliterate
   .\transliterate\Scripts\activate
 ```
