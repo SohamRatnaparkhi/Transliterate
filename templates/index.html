@@ -10,7 +10,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="static/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="static/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="static/favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="manifest" href="static/favicon_io/site.webmanifest">
     <link rel="stylesheet" type="text/css" href="/static/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -211,7 +211,18 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
-
+    <div id="mobile">
+        <p class="header">
+            WELCOME TO TRANSLITERATE !
+        </p>
+        <p class="info">
+            TRANSLITERATE is a free online tool that helps you to translate any audio/text to any of the 106 supported
+            languages.
+            <br>
+            <hr>
+        </p>
+    </div>
+    
     <div id="top">
         <nav class="navbar navbar-expand-lg bg-light navbar-dark bg-dark navbar-fixed-top">
             <div class="container-fluid">
@@ -228,12 +239,19 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="https://github.com/SohamRatnaparkhi/IEEEMUC-Transliterate/blob/main/guide.md">Guide</a>
+                            <a class="nav-link active" aria-current="page"
+                                href="https://github.com/SohamRatnaparkhi/IEEEMUC-Transliterate/blob/main/guide.md">Guide</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="https://github.com/SohamRatnaparkhi/IEEEMUC-Transliterate/blob/main/features.md">Features</a>
+                            <a class="nav-link active" aria-current="page"
+                                href="https://github.com/SohamRatnaparkhi/IEEEMUC-Transliterate/blob/main/features.md">Features</a>
                         </li>
-                        
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="https://github.com/SohamRatnaparkhi/IEEEMUC-Transliterate/blob/main/LanguageSupport.md">Supported
+                                languages</a>
+                        </li>
+
                     </ul>
 
 
@@ -261,7 +279,7 @@
                         <button type="button" class="btn btn-success">Open-source</button>
                     </div>
                 </div>
-                <div class="carousel-item" data-bs-interval="15000">
+                <div class="carousel-item">
                     <img src="static\images\carousel\cr1.jpg" class="d-block w-100" alt="..." height="700">
                     <div class="carousel-caption d-none d-md-block">
                         <h1 class="C-HEADING carousel-heading"> WELCOME TO</h1>
@@ -299,6 +317,7 @@
 
     </div>
     <hr>
+
     <div class="tester">
         <a class="btn btn-primary btn-lg btn-block w-100" href="#model1">🎇 TRANSLATE NOW 🎇</a>
     </div>
@@ -315,7 +334,7 @@
                         <div class="card-body">
                             <p class="card-content"><a
                                     href="https://github.com/SohamRatnaparkhi/IEEEMUC-Transliterate/blob/main/guide.md"
-                                    class="btn btn-outline-success" target="_blank">How does our tool work?</a></p>
+                                    class="btn btn-outline-success" target="_blank">How to use our app?</a></p>
                         </div>
                     </div>
                 </div>
@@ -346,6 +365,7 @@
             </div>
 
         </div>
+
         <div id="mid2">
             <br><br>
             <h4>🛠 REQUIREMENTS:</h4>
@@ -372,9 +392,12 @@
         </div>
         <div id="model1">
             <br>
-            <a class="btn btn-outline-info btn-lg btn-block forms-model" type="button" href="https://github.com/SohamRatnaparkhi/IEEEMUC-Transliterate/blob/main/LanguageSupport.md">🎇 SUPPORTED LANGUAGES 🎇</a>
+            <a class="btn btn-outline-info btn-lg btn-block forms-model" type="button"
+                href="https://github.com/SohamRatnaparkhi/IEEEMUC-Transliterate/blob/main/LanguageSupport.md">🎇
+                SUPPORTED LANGUAGES 🎇</a>
             <br><br>
-            <a class="btn btn-outline-success btn-lg btn-block forms-model" type="button" href="https://github.com/SohamRatnaparkhi/IEEEMUC-Transliterate/blob/main/guide.md">🎇 GUIDE 🎇</a>
+            <a class="btn btn-outline-success btn-lg btn-block forms-model" type="button"
+                href="https://github.com/SohamRatnaparkhi/IEEEMUC-Transliterate/blob/main/guide.md">🎇 GUIDE 🎇</a>
             <br><br>
             <div class="row row-cols-1 row-cols-md-1 mb-1  text-left forms-model">
                 <div class="col">
@@ -389,13 +412,15 @@
                                 </div>
                                 <div data-role="recordings"></div>
                             </div>
-                            <p> 
+                            <p class="alert alert-info info">
                                 Click the middle button to start recording your voice or upload the pre-existing file.
+                                <br>
+                                Button turns red when recording starts.
                             </p>
                             <form method="POST" action="{{url_for('translate_speech')}}" enctype="multipart/form-data">
                                 <label>AudioFile:</label>
                                 <input type="file" name='file' class='btn' required><br><br>
-                                <label>Enter the language in which you want to translate (all lowercase):</label>
+                                <label>Enter the language in which you want to translate :</label>
                                 <input type="text" name="target_language" class="form-name" required><br>
                                 <input type="submit" class="btn btn-warning text-center">
                             </form>
@@ -458,8 +483,6 @@
                         </p>
                     </section>
                     <!-- Section: Text -->
-
-
 
                     <!-- Copyright -->
                     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">

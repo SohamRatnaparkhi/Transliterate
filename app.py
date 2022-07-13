@@ -1,7 +1,7 @@
 # Importing necessary modules required
 
 from fnmatch import translate
-from flask import Flask, redirect, render_template, request, send_from_directory, url_for
+from flask import Flask, redirect, render_template, request, flash
 from playsound import playsound
 import speech_recognition as sr
 from googletrans import Translator
@@ -68,6 +68,16 @@ def translate_speech():
         if file.filename == "":
             return redirect(request.url)
 
+        extensions_available = ["wav"]
+        if file.filename.split(".")[-1] not in extensions_available:
+            print(file.filename.split(".")[-1])
+            # flash("Please upload a file with .wav extension only")
+            return render_template("error.html", message = "Please upload a file with .wav extension only\nTo do so, Just save the audio file with .wav extension")
+        
+    target = request.form.get('target_language')
+    if target not in languages.keys():
+        return render_template("error.html", message = "Choose a valid language. Look in the Supported Languages list for more information.")
+    try:   
         if file:
             recognizer = sr.Recognizer()
             audioFile = sr.AudioFile(file)
@@ -75,17 +85,23 @@ def translate_speech():
                 data = recognizer.record(source)
             transcript = recognizer.recognize_google(data, key=None)
             print(transcript)
+    except:
+        return render_template("error.html", message = "Sorry, I didn't understand that. Please try again.")
 
-    target = request.form.get('target_language')
     translated_text = translator(transcript, target)
-    target = languages[target]
+    
+    
 
-    speak = gTTS(text=translated_text, lang=target, slow=False)
-
-    # Using save() method to save the translated
+    target = languages[target].lower()
+    try:
+        speak = gTTS(text=translated_text, lang=target, slow=False)
+    except:
+        return render_template("error.html", message = "Sorry, I didn't understand that. Please try again.")
+    #? Using save() method to save the translated
     global i
     i += 1
-    # speech in capture_voice.mp3
+    
+    #? speech in capture_voice.mp3
     speak.save(fr"static\translated_speech\captured_voice{i}.mp3")
 
     return render_template('translator2.html', translated_text=translated_text, path = fr"static\translated_speech\captured_voice{i}.mp3")
@@ -102,8 +118,8 @@ def translator(text, target):
         str: translated text
     """
     if target not in languages.keys():
-        return "Choose a valid language"
-    target = languages[target]
+        return "Choose a valid language. Look in the Supported Languages list for more information"
+    target = languages[target].lower()
     print(target)
     translator = Translator()
     translation = translator.translate(text, dest=target)
