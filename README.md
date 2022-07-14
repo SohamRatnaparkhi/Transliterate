@@ -4,6 +4,7 @@
 - Its `Heroku app` is available as well.
 
 ## Run the following commands in the terminal to use this app locally.
+Before that some basic pre-requisites!
 - [Install `git`](https://git-scm.com/downloads)
 - [Python3](https://www.python.org/downloads/)
 
