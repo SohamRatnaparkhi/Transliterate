@@ -8,7 +8,7 @@
 - After clicking icon the the center will turn red which shows that the recording is in process. Clicking it again shows thath recording hs stopped.
 - Download the recorded file by pressing ![image](https://user-images.githubusercontent.com/92905626/178275115-214d04e5-2da3-42b9-b1cf-4c73560afca2.png) to download the audioclip locally.
 - Finally upload this file.
-- Enter the Preferred language and then Click on Submit.
+- Select the Preferred language from the drop-down menu and then Click on Submit.
 - While choosing the preffered language it is preferable to check its availability in `Suuported languages`. From supported languages, copy the <b> language name and not language code </b>
 - Press submit button.
 - You will now get the Translated text of that audio clip as well as the Translated Audio file.
