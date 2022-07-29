@@ -18,6 +18,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <style type="text/css">
         textarea {
             width: 100%;
@@ -239,6 +242,9 @@
                                 href="https://github.com/SohamRatnaparkhi/IEEEMUC-Transliterate/blob/main/LanguageSupport.md">Supported
                                 languages</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#contact-details">Contact us</a>
+                        </li>
 
                     </ul>
 
@@ -247,6 +253,7 @@
             </div>
         </nav>
         <p class="header">
+            <br>
             WELCOME TO TRANSLITERATE !
         </p>
         <p class="info">
@@ -284,6 +291,9 @@
                             <a class="nav-link active" aria-current="page"
                                 href="https://github.com/SohamRatnaparkhi/IEEEMUC-Transliterate/blob/main/LanguageSupport.md">Supported
                                 languages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#contact-details">Contact us</a>
                         </li>
 
                     </ul>
@@ -452,10 +462,19 @@
                                 Button turns red when recording starts.
                             </p>
                             <form method="POST" action="{{url_for('translate_speech')}}" enctype="multipart/form-data">
-                                <label>AudioFile:</label>
-                                <input type="file" name='file' class='btn' required><br><br>
-                                <label>Enter the language in which you want to translate :</label>
-                                <input type="text" name="target_language" class="form-name" required><br>
+                                <label class="box-labels">AudioFile:</label>
+                                <input type="file" name='file' class='btn-file-choose' required><br><br>
+                                <label class="box-labels">Select a language from the following drop-down menu :</label>
+
+                                <select id="langList" name="target_language" required>
+                                    <option class="opt1" value="Available languages:"> </option>
+                                </select>
+
+
+                                <script src="..\static\js\index.inputForm.js"></script>
+                                <br>
+                                <br>
+                                <!-- <input type="text" name="target_language" class="form-name" required><br> -->
                                 <input type="submit" class="btn btn-warning text-center">
                             </form>
                             <br>
@@ -473,13 +492,22 @@
 
                             <form method="POST" autocomplete="false" action="{{url_for('translate_text')}}"
                                 enctype="multipart/form-data">
-                                <label>Enter your text :</label> <br>
+                                <label class="box-labels">Enter your text :</label> <br>
                                 <textarea autocomplete="false" type="text" name="user_text" class="form-name"
                                     required></textarea><br>
                                 <!-- <label>Text File:</label>
                                 <input type="file" name='file' class='btn'><br><br> -->
-                                <label>Enter the language in which you want to translate (all lowercase):</label>
-                                <input type="text" name="target_language" class="form-name" required><br>
+                                <label class="box-labels">Select a language from the following drop-down menu :</label>
+                                <!-- <input list="langList" > -->
+
+                                <select id="langList2" name="target_language" required>
+                                    <option class="opt1" value="Available languages:"> </option>
+                                </select>
+
+                                <script src="..\static\js\index.inputForm.js"></script>
+                                <br>
+                                <br>
+                                <!-- <input type="text" name="target_language" class="form-name" required><br> -->
                                 <input type="submit" class="btn btn-warning text-center">
                             </form>
                             <br>
@@ -498,7 +526,7 @@
                 <!-- Grid container -->
                 <div class="container p-4">
                     <!-- Section: Social media -->
-                    <section class="mb-4">
+                    <section class="mb-4" id="contact-details">
                         <a href="https://linkfree.eddiehub.io/SohamRatnaparkhi" target="_blank">CONTACT US! - (Soham
                             Ratnaparkhi)</a>
                         <br>

@@ -1,20 +1,29 @@
-
-@media only screen and (max-width: 750px){
-    #top{
+@media only screen and (max-width: 750px) {
+    #top {
         display: none;
     }
-    #mobile{
+
+    #mobile {
         background-color: #E5E5E5;
         text-align: center;
         font-size: 25px;
     }
 }
-@media only screen and (min-width: 750px){
-    #mobile{
+
+@media only screen and (min-width: 750px) {
+    #mobile {
         display: none;
     }
 }
 
+.btn-file-choose {
+    width: 60%;
+}
+
+.box-labels {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
 
 .C-HEADING {
     font-size: 4.5em;
@@ -115,6 +124,10 @@ button {
 #mid2 {
     margin-left: 5%;
     margin-right: 5%;
+}
+
+.opt1 {
+    color: #f7f7f7;
 }
 
 .prediction {
