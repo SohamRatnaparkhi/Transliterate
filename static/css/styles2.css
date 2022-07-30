@@ -1,18 +1,25 @@
 .text {
     height: 1000px;
     /* width: 100%; */
-    overflow:scroll;
+    overflow: scroll;
     border: 1px solid #576F72;
     margin: 3vw;
     background-color: #243A73;
 }
-.user-text{
+
+.user-text {
+    /* overflow: visible; */
+    overflow-x: auto;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
     color: #F2EBE9;
     font-size: 1.7vw;
     padding: 0.5vw;
 }
 
-.play-sound{
+.play-sound {
     text-align: center;
 }
-
