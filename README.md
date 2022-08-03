@@ -51,6 +51,6 @@ To do so:-
 
 
 Some important links to get help / more information:
-- [Guide](https://github.com/SohamRatnaparkhi/Transliterate/blob/main/guide.md)
-- [Features](https://github.com/SohamRatnaparkhi/Transliterate/blob/main/features.md)
-- [Supported languages](https://github.com/SohamRatnaparkhi/Transliterate/blob/main/LanguageSupport.md)
+- [Guide](https://github.com/SohamRatnaparkhi/Transliterate/blob/main/Documentation/guide.md)
+- [Features](https://github.com/SohamRatnaparkhi/Transliterate/blob/main/Documentation/features.md)
+- [Supported languages](https://github.com/SohamRatnaparkhi/Transliterate/blob/main/Documentation/LanguageSupport.md)
