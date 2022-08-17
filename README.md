@@ -44,13 +44,15 @@ To do so:-
 
 ## Screenshots of website
 
-![image](https://user-images.githubusercontent.com/92905626/178129562-9492bfd9-fc6a-48af-992a-762b0745d949.png)
-![image](https://user-images.githubusercontent.com/92905626/178129584-229a62a6-3f83-4b10-b98d-f8959e6c2a1a.png)
-![image](https://user-images.githubusercontent.com/92905626/178129593-0aae130f-cede-4436-851d-65fc5498406c.png)
-![image](https://user-images.githubusercontent.com/92905626/178129603-debbe950-fc9b-4264-812e-f844f43c6470.png)
+![image](https://user-images.githubusercontent.com/92905626/185051024-85a5e4fb-17b5-455e-a55d-d0592c307a39.png)
+![image](https://user-images.githubusercontent.com/92905626/185051183-da6bc7f6-658f-42d4-8b66-569a75cb2ae5.png)
+![image](https://user-images.githubusercontent.com/92905626/185051306-1aae41aa-4aa7-4517-8e19-6abfb5df18e8.png)
+![image](https://user-images.githubusercontent.com/92905626/185051414-5bd92ebb-106c-4abf-8297-f6fcf10f651a.png)
 
 
 Some important links to get help / more information:
 - [Guide](https://github.com/SohamRatnaparkhi/Transliterate/blob/main/Documentation/guide.md)
 - [Features](https://github.com/SohamRatnaparkhi/Transliterate/blob/main/Documentation/features.md)
 - [Supported languages](https://github.com/SohamRatnaparkhi/Transliterate/blob/main/Documentation/LanguageSupport.md)
+
+You can always [open an issue](#https://github.com/SohamRatnaparkhi/Transliterate/issues) if you have any questions or open a discussion. Thanks for using Transliterate!
