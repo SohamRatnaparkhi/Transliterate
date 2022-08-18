@@ -4,7 +4,7 @@
 - Its `Heroku app` is available as well.
 - Its documentation is available in the [Documentaion folder](https://github.com/SohamRatnaparkhi/Transliterate/tree/main/Documentation)
 
-(flask app recommended)
+> From a developer's perspective, I think it would be best to use the Flask app!
 
 ## Run the following commands in the terminal to use this app locally.
 Before that some basic pre-requisites!
