@@ -2,6 +2,7 @@
 
 - This is `Flask web-app`. 
 - Its `Heroku app` is available as well.
+- Its documentation is available in the [Documentaion folder](https://github.com/SohamRatnaparkhi/Transliterate/tree/main/Documentation)
 
 (flask app recommended)
 
