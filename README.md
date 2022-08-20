@@ -51,7 +51,7 @@ To do so:-
 ![image](https://user-images.githubusercontent.com/92905626/185051414-5bd92ebb-106c-4abf-8297-f6fcf10f651a.png)
 
 
-Some important links to get help / more information:
+Some important links to get help you getting started with this tool:
 - [Guide](https://github.com/SohamRatnaparkhi/Transliterate/blob/main/Documentation/guide.md)
 - [Features](https://github.com/SohamRatnaparkhi/Transliterate/blob/main/Documentation/features.md)
 - [Supported languages](https://github.com/SohamRatnaparkhi/Transliterate/blob/main/Documentation/LanguageSupport.md)
