@@ -2,7 +2,7 @@
 
 - This is `Flask web-app`. 
 - Its `Heroku app` is available as well.
-- Its documentation is available in the [Documentaion folder](https://github.com/SohamRatnaparkhi/Transliterate/tree/main/Documentation)
+- Its documentation is available in the [Documentaion folder](https://github.com/SohamRatnaparkhi/Transliterate/tree/main/Documentation). It will help you to get started with the tool.
 
 > From a developer's perspective, I think it would be best to use the Flask app!
 
