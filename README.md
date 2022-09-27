@@ -54,7 +54,7 @@ To do so:-
 > It would be great if you will ⭐ this repo!
 
 <details>
-  <summary><h2>Transliterate-2</h2></summary>
+  <summary><h2>Transliterate-2</h2> (a newer and better version of this app)</summary>
   <br/>
  A newer version of this app is available <a href="https://github.com/SohamRatnaparkhi/transliterate-v2">here</a> but as this version is very close to my heart, I won't drop this version.
  
