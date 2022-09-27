@@ -3,7 +3,7 @@
 - This is `Flask web-app`. 
 - Its `Heroku app` is available as well.
 <details>
-  <summary><b>🧵 A short note from developers!</b></summary>
+  <summary><b>🧵 A short note from developer!</b></summary>
   <br/>
   There is a high possibility that the Heroku link might not work in future because I might loss the free teir access soon. If it fails to work, you can still use the application by `git cloning` it.
   <br/> 
