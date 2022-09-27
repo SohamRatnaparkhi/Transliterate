@@ -2,8 +2,18 @@
 
 - This is `Flask web-app`. 
 - Its `Heroku app` is available as well.
+<details>
+  <summary><b>🧵 A short note from developers!</b></summary>
+  <br/>
+  There is a high possibility that the Heroku link might not work in future because I might loss the free teir access soon. If it fails to work, you can still use the application by `git cloning` it.
+  <br/> 
+</details>
 
-(flask app recommended)
+
+ > From a developer's perspective, I think it would be best to use the Flask app!
+- Its documentation is available in the [Documentaion folder](https://github.com/SohamRatnaparkhi/Transliterate/tree/main/Documentation). It will help you to get started with the tool.
+
+
 
 ## Run the following commands in the terminal to use this app locally.
 Before that some basic pre-requisites!
@@ -41,16 +51,19 @@ To do so:-
     flask run
 ```
 
+> It would be great if you ⭐ this repo.
 
 ## Screenshots of website
 
-![image](https://user-images.githubusercontent.com/92905626/178129562-9492bfd9-fc6a-48af-992a-762b0745d949.png)
-![image](https://user-images.githubusercontent.com/92905626/178129584-229a62a6-3f83-4b10-b98d-f8959e6c2a1a.png)
-![image](https://user-images.githubusercontent.com/92905626/178129593-0aae130f-cede-4436-851d-65fc5498406c.png)
-![image](https://user-images.githubusercontent.com/92905626/178129603-debbe950-fc9b-4264-812e-f844f43c6470.png)
+![image](https://user-images.githubusercontent.com/92905626/185051024-85a5e4fb-17b5-455e-a55d-d0592c307a39.png)
+![image](https://user-images.githubusercontent.com/92905626/185051183-da6bc7f6-658f-42d4-8b66-569a75cb2ae5.png)
+![image](https://user-images.githubusercontent.com/92905626/185051306-1aae41aa-4aa7-4517-8e19-6abfb5df18e8.png)
+![image](https://user-images.githubusercontent.com/92905626/185051414-5bd92ebb-106c-4abf-8297-f6fcf10f651a.png)
 
 
-Some important links to get help / more information:
+Some important links to get help you getting started with this tool:
 - [Guide](https://github.com/SohamRatnaparkhi/Transliterate/blob/main/Documentation/guide.md)
 - [Features](https://github.com/SohamRatnaparkhi/Transliterate/blob/main/Documentation/features.md)
 - [Supported languages](https://github.com/SohamRatnaparkhi/Transliterate/blob/main/Documentation/LanguageSupport.md)
+
+You can always [open an issue](#https://github.com/SohamRatnaparkhi/Transliterate/issues) if you have any questions or open a discussion. Thanks for using Transliterate!
