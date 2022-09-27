@@ -6,8 +6,8 @@ from playsound import playsound
 import speech_recognition as sr
 from googletrans import Translator
 from gtts import gTTS
-import os
 import speech_recognition as sr
+import os
 
 
 app = Flask(__name__)
@@ -47,6 +47,10 @@ i = 0
 
 @app.route('/translation', methods=['POST'])
 def translate_text():
+    '''
+        Translate text from one language to another
+        return: translated text to translator.html
+    '''
     text = request.form.get('user_text')
     target = request.form.get('target_language')
     print(text, target)
@@ -56,6 +60,11 @@ def translate_text():
 
 @app.route('/translation2', methods=['POST', 'GET'])
 def translate_speech():
+    '''
+        Translate speech from one language to another
+        Process: Record audio -> Convert to text -> Translate text -> Convert to speech -> Play
+        return: translated speech to translator2.html
+    '''
     print("inside translation2")
     transcript = ""
     if request.method == "POST":
@@ -71,7 +80,6 @@ def translate_speech():
         extensions_available = ["wav"]
         if file.filename.split(".")[-1] not in extensions_available:
             print(file.filename.split(".")[-1])
-            # flash("Please upload a file with .wav extension only")
             return render_template("error.html", message = "Please upload a file with .wav extension only\nTo do so, Just save the audio file with .wav extension")
         
     target = request.form.get('target_language')

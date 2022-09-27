@@ -21,18 +21,23 @@ var languages = {
     "ukrainian": "uk", "urdu": "ur", "uyghur": "ug", "uzbek": "uz", "vietnamese": "vi",
     "welsh": "cy", "xhosa": "xh", "yiddish": "yi", "yoruba": "yo", "zulu": "zu"
 }
-
+ 
 function createDatalist(id) {
+    /*
+     * Creates a datalist element with the id and appends it to the body.
+     * @param {string} id - The id of the datalist element.
+     * @returns {HTMLDataListElement} The datalist element.
+     */
+    
     const datalist = document.getElementById(id);
     console.log(datalist);
     const langs = Object.keys(languages);
 
     for (let index = 0; index < langs.length; index++) {
         var element = langs[index];
-        // element = "value=" + element;
         console.log(element);
         const listElement = document.createElement('option');
-        listElement.innerHTML = element;
+        listElement.innerHTML = element;    
         datalist.append(listElement);
 
     }
