@@ -51,7 +51,21 @@ To do so:-
     flask run
 ```
 
-> It would be great if you ⭐ this repo.
+> It would be great if you will ⭐ this repo!
+
+<details>
+  <summary><h2>Transliterate-2</h2></summary>
+  <br/>
+ A newer version of this app is available <a href="https://github.com/SohamRatnaparkhi/transliterate-v2">here</a> but as this version is very close to my heart, I won't drop this version.
+ 
+ The latest version though - has some added features like:
+ 
+ * Translation of video along with audio with text.
+ * Much better UI
+ * Now users wont get redirected to a new page to see the translation.
+  <br/> 
+</details>
+
 
 ## Screenshots of website
 
