@@ -2,6 +2,14 @@
 
 - This is `Flask web-app`. 
 - Its `Heroku app` is available as well.
+<details>
+  <summary><b>🧵 A short note from developers!</b></summary>
+  <br/>
+  There is a high possibility that the Heroku link might not work in future because I might loss the free teir access soon. If it fails to work, you can still use the application by `git cloning` it.
+  <br/> 
+</details>
+
+
  > From a developer's perspective, I think it would be best to use the Flask app!
 - Its documentation is available in the [Documentaion folder](https://github.com/SohamRatnaparkhi/Transliterate/tree/main/Documentation). It will help you to get started with the tool.
 
@@ -43,6 +51,7 @@ To do so:-
     flask run
 ```
 
+> It would be great if you ⭐ this repo.
 
 ## Screenshots of website
 
