@@ -1,109 +1,114 @@
 - These are the languages that this tools supports.
 
 `Sr.No` `Language` - `Code` <br>
-1. afrikaans - af <br>
-2. albanian - sq <br>
-3. amharic - am <br>
-4. arabic - ar <br>
-5. armenian - hy <br>
-6. azerbaijani - az <br>
-7. basque - eu <br>
-8. belarusian - be <br>
-9. bengali - bn <br>
-10. bosnian - bs <br>
-11. bulgarian - bg <br>
-12. catalan - ca <br>
-13. cebuano - ceb <br>
-14. chichewa - ny <br>
-15. chinese (simplified) - zh-cn <br>
-16. chinese (traditional) - zh-tw <br>
-17. corsican - co <br>
-18. croatian - hr <br>
-19. czech - cs <br>
-20. danish - da <br>
-21. dutch - nl <br>
-22. english - en <br>
-23. esperanto - eo <br>
-24. estonian - et <br>
-25. filipino - tl <br>
-26. finnish - fi <br>
-27. french - fr <br>
-28. frisian - fy <br>
-29. galician - gl <br>
-30. georgian - ka <br>
-31. german - de <br>
-32. greek - el <br>
-33. gujarati - gu <br>
-34. haitian creole - ht <br>
-35. hausa - ha <br>
-36. hawaiian - haw <br>
-37. hebrew - he <br>
-38. hindi - hi <br>
-39. hmong - hmn <br>
-40. hungarian - hu <br>
-41. icelandic - is <br>
-42. igbo - ig <br>
-43. indonesian - id <br>
-44. irish - ga <br>
-45. italian - it <br>
-46. japanese - ja <br>
-47. javanese - jw <br>
-48. kannada - kn <br>
-49. kazakh - kk <br>
-50. khmer - km <br>
-51. korean - ko <br>
-52. kurdish (kurmanji) - ku <br>
-53. kyrgyz - ky <br>
-54. lao - lo <br>
-55. latin - la <br>
-56. latvian - lv <br>
-57. lithuanian - lt <br>
-58. luxembourgish - lb <br>
-59. macedonian - mk <br>
-60. malagasy - mg <br>
-61. malay - ms <br>
-62. malayalam - ml <br>
-63. maltese - mt <br>
-64. maori - mi <br>
-65. marathi - mr <br>
-66. mongolian - mn <br>
-67. myanmar (burmese) - my <br>
-68. nepali - ne <br>
-69. norwegian - no <br>
-70. odia - or <br>
-71. pashto - ps <br>
-72. persian - fa <br>
-73. polish - pl <br>
-74. portuguese - pt <br>
-75. punjabi - pa <br>
-76. romanian - ro <br>
-77. russian - ru <br>
-78. samoan - sm <br>
-79. scots gaelic - gd <br>
-80. serbian - sr <br>
-81. sesotho - st <br>
-82. shona - sn <br>
-83. sindhi - sd <br>
-84. sinhala - si <br>
-85. slovak - sk <br>
-86. slovenian - sl <br>
-87. somali - so <br>
-88. spanish - es <br>
-89. sundanese - su <br>
-90. swahili - sw <br>
-91. swedish - sv <br>
-92. tajik - tg <br>
-93. tamil - ta <br>
-94. telugu - te <br>
-95. thai - th <br>
-96. turkish - tr <br>
-97. ukrainian - uk <br>
-98. urdu - ur <br>
-99. uyghur - ug <br>
-100. uzbek - uz <br>
-101. vietnamese - vi <br>
-102. welsh - cy <br>
-103. xhosa - xh <br>
-104. yiddish - yi <br>
-105. yoruba - yo <br>
-106. zulu - zu <br>
+
+
+
+| Sr.No  | Language |  Code |
+|:---:|:------|:--------------:|
+|1 | afrikaans | af |
+|2 | albanian | sq |
+|3 | amharic | am |
+|4 | arabic | ar |
+|5 | armenian | hy |
+|6 | azerbaijani | az |
+|7 | basque | eu |
+|8 | belarusian | be |
+|9 | bengali | bn |
+|10 | bosnian | bs |
+|11 | bulgarian | bg |
+|12 | catalan | ca |
+|13 | cebuano -|ceb |
+|14 | chichewa | ny |
+|15 | chinese (simplified) | z-cn |
+|16 | chinese (traditional) | z-tw |
+|17 | corsican | co |
+|18 | croatian | hr |
+|19 | czech | cs |
+|20 | danish | da |
+|21 | dutch | nl |
+|22 | english | en |
+|23 | esperanto | eo |
+|24 | estonian | et |
+|25 | filipino | tl |
+|26 | finnish | fi |
+|27 | french | fr |
+|28 | frisian | fy |
+|29 | galician | gl |
+|30 | georgian | ka |
+|31 | german | de |
+|32 | greek | el |
+|33 | gujarati | gu |
+|34 | haitian creole | ht |
+|35 | hausa | ha |
+|36 | hawaiian -|haw |
+|37 | hebrew | he |
+|38 | hindi | hi |
+|39 | hmong -|hmn |
+|40 | hungarian | hu |
+|41 | icelandic | is |
+|42 | igbo | ig |
+|43 | indonesian | id |
+|44 | irish | ga |
+|45 | italian | it |
+|46 | japanese | ja |
+|47 | javanese | jw |
+|48 | kannada | kn |
+|49 | kazakh | kk |
+|50 | khmer | km |
+|51 | korean | ko |
+|52 | kurdish (kurmanji) | ku |
+|53 | kyrgyz | ky |
+|54 | lao | lo |
+|55 | latin | la |
+|56 | latvian | lv |
+|57 | lithuanian | lt |
+|58 | luxembourgish | lb |
+|59 | macedonian | mk |
+|60 | malagasy | mg |
+|61 | malay | ms |
+|62 | malayalam | ml |
+|63 | maltese | mt |
+|64 | maori | mi |
+|65 | marathi | mr |
+|66 | mongolian | mn |
+|67 | myanmar (burmese) | my |
+|68 | nepali | ne |
+|69 | norwegian | no |
+|70 | odia | or |
+|71 | pashto | ps |
+|72 | persian | fa |
+|73 | polish | pl |
+|74 | portuguese | pt |
+|75 | punjabi | pa |
+|76 | romanian | ro |
+|77 | russian | ru |
+|78 | samoan | sm |
+|79 | scots gaelic | gd |
+|80 | serbian | sr |
+|81 | sesotho | st |
+|82 | shona | sn |
+|83 | sindhi | sd |
+|84 | sinhala | si |
+|85 | slovak | sk |
+|86 | slovenian | sl |
+|87 | somali | so |
+|88 | spanish | es |
+|89 | sundanese | su |
+|90 | swahili | sw |
+|91 | swedish | sv |
+|92 | tajik | tg |
+|93 | tamil | ta |
+|94 | telugu | te |
+|95 | thai | th |
+|96 | turkish | tr |
+|97 | ukrainian | uk |
+|98 | urdu | ur |
+|99 | uyghur | ug |
+|100 | uzbek | uz |
+|101 | vietnamese | vi |
+|102 | welsh | cy |
+|103 | xhosa | xh |
+|104 | yiddish | yi |
+|105 | yoruba | yo |
+|106 | zulu | zu |
