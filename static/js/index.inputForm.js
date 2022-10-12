@@ -46,5 +46,5 @@ function createDatalist(id) {
 
 
 createDatalist('langList');
-createDatalist('langList2');
+createDatalist('langList2);
 
