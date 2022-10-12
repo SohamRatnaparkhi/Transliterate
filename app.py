@@ -105,7 +105,7 @@ def translate_speech():
         speak = gTTS(text=translated_text, lang=target, slow=False)
     except:
         return render_template("error.html", message = "Sorry, I didn't understand that. Please try again.")
-    #? Using save() method to save the translated
+    #? Using save() method to save the translated voice
     global i
     i += 1
     
