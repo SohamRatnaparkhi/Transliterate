@@ -39,7 +39,6 @@ function createDatalist(id) {
         const listElement = document.createElement('option');
         listElement.innerHTML = element;    
         datalist.append(listElement);
-
     }
 }
 
